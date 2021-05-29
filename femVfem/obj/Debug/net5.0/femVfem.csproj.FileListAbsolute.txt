@@ -1,0 +1,16 @@
+C:\Users\Thoma\Koding\C#\femVfem\femVfem\obj\Debug\net5.0\femVfem.csprojAssemblyReference.cache
+C:\Users\Thoma\Koding\C#\femVfem\femVfem\obj\Debug\net5.0\femVfem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thoma\Koding\C#\femVfem\femVfem\obj\Debug\net5.0\femVfem.AssemblyInfoInputs.cache
+C:\Users\Thoma\Koding\C#\femVfem\femVfem\obj\Debug\net5.0\femVfem.AssemblyInfo.cs
+C:\Users\Thoma\Koding\C#\femVfem\femVfem\obj\Debug\net5.0\femVfem.csproj.CoreCompileInputs.cache
+C:\Users\Thoma\Koding\C#\femVfem\femVfem\bin\Debug\net5.0\femVfem.exe
+C:\Users\Thoma\Koding\C#\femVfem\femVfem\bin\Debug\net5.0\femVfem.deps.json
+C:\Users\Thoma\Koding\C#\femVfem\femVfem\bin\Debug\net5.0\femVfem.runtimeconfig.json
+C:\Users\Thoma\Koding\C#\femVfem\femVfem\bin\Debug\net5.0\femVfem.runtimeconfig.dev.json
+C:\Users\Thoma\Koding\C#\femVfem\femVfem\bin\Debug\net5.0\femVfem.dll
+C:\Users\Thoma\Koding\C#\femVfem\femVfem\bin\Debug\net5.0\ref\femVfem.dll
+C:\Users\Thoma\Koding\C#\femVfem\femVfem\bin\Debug\net5.0\femVfem.pdb
+C:\Users\Thoma\Koding\C#\femVfem\femVfem\obj\Debug\net5.0\femVfem.dll
+C:\Users\Thoma\Koding\C#\femVfem\femVfem\obj\Debug\net5.0\ref\femVfem.dll
+C:\Users\Thoma\Koding\C#\femVfem\femVfem\obj\Debug\net5.0\femVfem.pdb
+C:\Users\Thoma\Koding\C#\femVfem\femVfem\obj\Debug\net5.0\femVfem.genruntimeconfig.cache
