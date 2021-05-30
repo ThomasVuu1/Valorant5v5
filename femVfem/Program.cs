@@ -24,15 +24,14 @@ namespace femVfem
             //CREATE TWO RANDOM TEAMS
             teams.createTeams(players);
 
-            //Get owned agents
+            //Add agent & get owned agents
             Console.WriteLine();
-            players[1].addAgent("Reyna");
+            players[1].addAgent("REYnA");
             for (int i = 0; i < players[1].getOwnedAgents().Count; i++)
             {
                 Console.WriteLine(players[1].getOwnedAgents()[i].Name);
             }
 
-            //Add agent
 
 
 
