@@ -9,7 +9,7 @@ namespace femVfem
     class Player
     {
         public string Name { get; set; }
-        public List<Agents> agents = new List<Agents>();
+        public List<Agent> agents = new List<Agent>();
 
         public Player(string user)
         {
@@ -19,27 +19,27 @@ namespace femVfem
 
         public void getAgents()
         {
-            agents.Add(new Agents("Brimstone", "Controller", true));
-            agents.Add(new Agents("Phoenix", "Duelist", true));
-            agents.Add(new Agents("Sage", "Sentinel", true));
-            agents.Add(new Agents("Sova", "Initiator", true));
-            agents.Add(new Agents("Jett", "Duelist", true));
-            agents.Add(new Agents("Viper", "Controller", false));
-            agents.Add(new Agents("Cypher", "Sentinel", false));
-            agents.Add(new Agents("Reyna", "Duelist", false));
-            agents.Add(new Agents("Killjoy", "Sentinel", false));
-            agents.Add(new Agents("Breach", "Initiator", false));
-            agents.Add(new Agents("Omen", "Controller", false));
-            agents.Add(new Agents("Raze", "Duelist", false));
-            agents.Add(new Agents("Skye", "Initiator", false));
-            agents.Add(new Agents("Yoru", "Duelist", false));
-            agents.Add(new Agents("Astra", "Controller", false));
+            agents.Add(new Agent("Brimstone", "Controller", true));
+            agents.Add(new Agent("Phoenix", "Duelist", true));
+            agents.Add(new Agent("Sage", "Sentinel", true));
+            agents.Add(new Agent("Sova", "Initiator", true));
+            agents.Add(new Agent("Jett", "Duelist", true));
+            agents.Add(new Agent("Viper", "Controller", false));
+            agents.Add(new Agent("Cypher", "Sentinel", false));
+            agents.Add(new Agent("Reyna", "Duelist", false));
+            agents.Add(new Agent("Killjoy", "Sentinel", false));
+            agents.Add(new Agent("Breach", "Initiator", false));
+            agents.Add(new Agent("Omen", "Controller", false));
+            agents.Add(new Agent("Raze", "Duelist", false));
+            agents.Add(new Agent("Skye", "Initiator", false));
+            agents.Add(new Agent("Yoru", "Duelist", false));
+            agents.Add(new Agent("Astra", "Controller", false));
         }
 
-        public List<Agents> getOwnedAgents()
+        public List<Agent> getOwnedAgents()
         {
-            List<Agents> ownedAgents = new List<Agents>();
-            foreach(Agents a in agents)
+            List<Agent> ownedAgents = new List<Agent>();
+            foreach(Agent a in agents)
             {
                 if(a.Owned == true)
                 {
@@ -47,6 +47,12 @@ namespace femVfem
                 }
             }
             return ownedAgents;
+        }
+
+        public void addAgent(string agentName)
+        {
+            int i = agents.FindIndex(a => a.Name == agentName);
+            agents[i].Owned = true;
         }
        
 

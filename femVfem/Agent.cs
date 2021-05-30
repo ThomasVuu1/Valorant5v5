@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace femVfem
 {
-    class Agents
+    class Agent
     {
         public string Name { get; set; } = "";
         public string Type { get; set; } = "";
         public bool Owned { get; set; } = false;
 
-        public Agents(string name, string type, bool owned)
+        public Agent(string name, string type, bool owned)
         {
             Name = name;
             Type = type;
